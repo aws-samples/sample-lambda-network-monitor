@@ -1,4 +1,4 @@
-# Lambda Network Monitor
+# Lambda network monitoring
 
 Attaching Lambda functions to a VPC allow you to have network monitoring for your function code. You can use VPC Flowlogs to auditing purposes and security groups/ACLs for access controls. 
 
