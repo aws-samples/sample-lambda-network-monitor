@@ -1,0 +1,9 @@
+.idea
+node_modules
+target
+misc
+*.so
+cdk.out
+cdk.context.json
+
+

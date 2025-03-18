@@ -1,0 +1,17 @@
+{
+  "name": "sample-lambda-network-monitor",
+  "version": "0.1.0",
+  "bin": {
+    "example": "bin/lambda-network-monitor.js"
+  },
+  "scripts": {
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.177.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.177.0",
+    "constructs": "10.4.2"
+  }
+}

@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "running wrapper..."
+
+args=("$@")
+
+export LD_PRELOAD=/opt/liblambda_network_monitor.so
+
+exec "${args[@]}"
