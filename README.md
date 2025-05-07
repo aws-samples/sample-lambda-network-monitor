@@ -1,5 +1,7 @@
 # Lambda network monitoring
 
+This repo contains sample projects for functionality discussed in [this blog](https://aws.amazon.com/blogs/compute/monitoring-network-traffic-in-aws-lambda-functions/).
+
 Attaching Lambda functions to a VPC allow you to have network monitoring for your function code. You can use VPC Flowlogs to auditing purposes and security groups/ACLs for access controls. 
 
 In some scenarios, however, attaching a function to VPC might not be enough. For example, you might want to have fine-grained per-function or even per-invoke network monitoring, audit DNS resolutions and connection creations, or simply prefer not to introduce additional operational overhead of managing infrastructure.
